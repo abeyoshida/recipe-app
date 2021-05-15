@@ -1,7 +1,11 @@
 import { Directive, HostListener, HostBinding } from '@angular/core';
 
 @Directive({
-  /** attribute selector requires square brackets */
+  /**
+   * Attribute selector requires square brackets.
+   * To enable the Bootstrap dropdown menu to work add the "appDropdown" directive as an attribute
+   * to the html dropdown container element that holds the "dropdown" class assignment.
+   */
   selector: '[appDropdown]',
 })
 
